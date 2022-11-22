@@ -50,7 +50,6 @@ nav ul li a{
 }
 .sub-video{    
     display: block;
-    clear: both;
     position: absolute;
     top: 0 ;
     z-index: -1;
@@ -91,13 +90,21 @@ nav ul li a{
     position: relative;
     display: flex;
     top:30vh;
+
   }
   .descraption{
-    margin-right: 5%;
+    margin-left: 5%;
   }
   .title_project{
     margin-left: 2%;
     margin-right: 30%;
-    
   }
-  
+  body{
+    overflow: hidden;
+  }
+  .video_frame{
+    width: 100vw;
+    height: 50vh;
+    border: #fff;
+    overflow: hidden;
+  }

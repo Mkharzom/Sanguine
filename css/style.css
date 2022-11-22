@@ -98,6 +98,7 @@ nav ul li a{
   .title_project{
     margin-left: 2%;
     margin-right: 30%;
+    width: 100%;
   }
   body{
     overflow: hidden;
@@ -107,4 +108,11 @@ nav ul li a{
     height: 70vh;
     border: #fff;
     overflow: hidden;
+  }
+  a1{
+    font-size: 35px;
+    line-height: 70px;
+  }
+  p{
+    line-height: 20px;
   }

@@ -105,8 +105,9 @@ nav ul li a{
     overflow: hidden;
   }
   .video_frame{
+    margin-top: -85px;
     width: 100vw;
-    height: 70vh;
+    height: 85vh;
     border: #fff;
     overflow: hidden;
   }

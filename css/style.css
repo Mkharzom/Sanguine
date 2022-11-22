@@ -98,6 +98,7 @@ nav ul li a{
   .title_project{
     margin-left: 2%;
     margin-right: 30%;
+    margin-top: -1.5%;
     width: 100%;
   }
   body{
@@ -114,6 +115,7 @@ nav ul li a{
     display: block;
     font-size: 35px;
     line-height: 70px;
+    in-inline-size: max-content;
   }
   p{
     line-height: 20px;

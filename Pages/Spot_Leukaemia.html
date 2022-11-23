@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="../javascript/app.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
     <title>Spot Leukaemia</title>
 </head>
 <body>
@@ -22,16 +24,17 @@
             <li><a href="#">ABOUT</a></li>
         </ul>
     </nav>
-    <iframe src="../Pages/V2.html" class = "video_frame">
-
-    </iframe>
+    
+    <iframe id="test" onclick="myFunction()" class = "video_frame" src="https://drive.google.com/file/d/1awN7XTbHTFIDdI4swWXtcFSz2ITd_3v6/preview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
 
     <div class="text_body">
         <div class="title_project">
-            <a1>Spot Leukaemia</a1>
+            <a1 onclick="myFunction()">Spot Leukaemia</a1>
             <p1>Client:  Leukaemia Care UK and Leukaemia UK </p1>
         </div>
-        <div class="descraption">
+        <div id="test" class="descraption">
             <p>Britain’s two largest leukaemia organisations Leukaemia U.K and Leukaemia Care approached us to deliver a UK-wide campaign that would raise awareness of the 3 
                 key symptoms of leukaemia as well as drive people experiencing them to speak up. 
                 At the time, relentless Covid messaging had left the public feeling fatigued, so we knew an unconventional creative strategy would be required to divert attention to yet another set of symptoms. To generate cut-through and memorability, we built a campaign 
@@ -41,5 +44,13 @@
         </div>
         
     </div>
+
+    <script>
+        function myFunction() {
+          document.getElementById("test").style.height = "100vh" ;
+          document.getElementById("test").style.marginTop = "0" ;
+        }
+        </script>
+
 </body>
 </html>

@@ -94,12 +94,14 @@ nav ul li a{
   }
   .descraption{
     margin-right: 5%;
+    margin-left: 15%;
   }
   .title_project{
+    display: inline;
     margin-left: 2%;
-    margin-right: 30%;
+    margin-right: 0%;
     margin-top: -1.5%;
-    width: 100%;
+    width: 250vw;
   }
   body{
     overflow: hidden;
@@ -107,7 +109,7 @@ nav ul li a{
   .video_frame{
     margin-top: -85px;
     width: 100vw;
-    height: 85vh;
+    height: 75vh;
     border: #fff;
     overflow: hidden;
   }
@@ -115,7 +117,6 @@ nav ul li a{
     clear: both;
     display: block;
     font-size: 35px;
-    min-inline-size: max-content;
     line-height: 70px;
   }
   p{

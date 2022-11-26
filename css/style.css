@@ -95,15 +95,17 @@ nav ul li a:hover{
     z-index: 1;
   }
   .descraption{
+    position: absolute;
     margin-right: 5%;
-    margin-left: 15%;
+    margin-left: 30%;
+    text-align: left;
   }
   .title_project{
     display: inline;
     margin-left: 2%;
     margin-right: 0%;
     margin-top: -1.5%;
-    width: 250vw;
+    width: 200vw;
   }
   body{
     overflow: hidden;
@@ -139,12 +141,16 @@ nav ul li a:hover{
     line-height: 20px;
   }
   p1{
+    line-height: 20px;
+    display: block;
+    clear: both;
     font-size: 12px;
   }
   .webkit a1 , p , p1 {
     font-weight: lighter;
   }
   #about{
+    position: relative;
     margin-left: 0;
     margin-right: 5%;
   }

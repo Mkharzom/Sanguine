@@ -2,6 +2,39 @@
 <html lang="en">
 <head>
     <style>
+      @media only screen and (max-width: 600px) {
+          /* For mobile phones: */
+          .owl-stage-outer {
+            height: 40vh;
+          }
+          .owl-carousel .owl-item img {
+            height: 40vh;
+          }
+        }
+        @media only screen and (min-width: 600px) and (max-width:700px){
+          /* For mobile phones: */
+          .owl-stage-outer {
+            height: 50vh;
+          }
+          .owl-carousel .owl-item img {
+            height: 50vh;
+          }
+        }
+        @media only screen and (min-width: 700px) and (max-width:800px){
+          /* For mobile phones: */
+          .owl-stage-outer {
+            height: 55vh;
+          }
+          .owl-carousel .owl-item img {
+            height: 55vh;
+          }
+        }
+        @media only screen and (min-width: 800px) {
+          /* For mobile phones: */
+          .owl-carousel .owl-item img {
+            height: 60vh;
+          }
+        }
         .owl-stage-outer{
             top: 0;
             margin: 0;
@@ -27,8 +60,7 @@
         }
         .owl-carousel .owl-item img{
             display: block;
-            width: 40vw;
-            height: 65vh;
+            width: 50vw;
 
         }
 
@@ -122,7 +154,7 @@
               $(document).ready(function() {
                 var owl = $('.owl-carousel');
                 owl.owlCarousel({
-                  stagePadding: 150,
+                  stagePadding: 100,
                   margin: 0,
                   nav: false,
                   loop: false,
@@ -154,9 +186,9 @@
                       items: 2
                     },
                     800:{
-                      items : 3
+                      items : 2.5
                     },
-                    1000:{
+                    900:{
                       items : 3
                     },
                     1200: {
